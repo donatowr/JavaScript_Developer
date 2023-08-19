@@ -6,8 +6,9 @@ const Aluno ={
     endereco: "Rua Sebastião José Pereira",
 
     descrever: function(){    
-        console.log(`meu nome é ${this.nome} e minha idade é ${this.idade}`);
+        console.log(this.nome + this.endereco);
     }
+
 };
 
 
